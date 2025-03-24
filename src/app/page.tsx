@@ -5,6 +5,8 @@ import { FaWineGlass, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 import Image from 'next/image'
 
 export default function Home() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/soiree' : ''
+  
   return (
     <main className="min-h-screen bg-gradient-to-br from-purple-900 to-blue-900 text-white">
       <div className="container mx-auto px-4 py-16">
@@ -73,7 +75,7 @@ export default function Home() {
         {/* Photo de la maison */}
         <div className="w-full h-[400px] relative bg-white/10 rounded-lg mb-8 overflow-hidden">
           <Image
-            src="/mamieleane.jpg"
+            src={`${basePath}/mamieleane.jpg`}
             alt="Maison de la grand-mère de Léane"
             fill
             style={{ objectFit: 'cover' }}
