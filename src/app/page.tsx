@@ -15,7 +15,7 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h1 className="text-5xl font-bold mb-4">Soirée Bordel</h1>
+          <h1 className="text-5xl font-bold mb-4">Soirée Festive</h1>
           <p className="text-xl text-purple-200">Chez la grand-mère de Léane</p>
         </motion.div>
 
@@ -40,7 +40,7 @@ export default function Home() {
               <div className="flex items-center gap-3">
                 <FaClock className="text-2xl text-purple-300" />
                 <div>
-                  <h3 className="font-semibold">Date & Heure</h3>
+                  <h3 className="font-semibold">Date &amp; Heure</h3>
                   <p>Vendredi 28 mars 2025</p>
                   <p>À partir de 19h</p>
                 </div>
@@ -56,15 +56,15 @@ export default function Home() {
           >
             <div className="flex items-center gap-3 mb-4">
               <FaWineGlass className="text-2xl text-purple-300" />
-              <h3 className="font-semibold text-xl">Thème : Jeux d'alcool</h3>
+              <h3 className="font-semibold text-xl">Thème : Jeux d&apos;alcool</h3>
             </div>
             <p className="text-purple-200 italic mb-4">
-              "L'abus de santé est dangereux pour l'alcool" 🍷
+              &quot;L&apos;abus de santé est dangereux pour l&apos;alcool&quot; 🍷
             </p>
             <div className="bg-red-500/20 p-4 rounded-lg">
               <p className="text-sm">
-                La consommation d'alcool est réservée aux personnes majeures.
-                À consommer avec modération. (Hugo s'appelle aussi modération)
+                La consommation d&apos;alcool est réservée aux personnes majeures.
+                À consommer avec modération.
               </p>
             </div>
           </motion.div>
